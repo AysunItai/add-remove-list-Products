@@ -1,0 +1,22 @@
+//1.add product page
+//2.when we click add button we reach to that page
+
+//creation of new pages in react
+
+
+//adding multiple pages feauture
+//1.install react-router-dom
+//2.in app.js import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom'
+//3.wrap your components with router
+//redirecting page on button click to addproduct page
+1.import useNavigate hooke and get navigate object from
+for redirecting on button click
+const navigate = useNavigate();
+  
+    const addproductPage = () => {
+      
+        navigate("/addproduct")
+    }
+    
+//https://www.youtube.com/watch?v=nrmIJ0Ko6Sw
